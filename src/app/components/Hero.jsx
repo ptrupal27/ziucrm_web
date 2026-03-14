@@ -65,12 +65,12 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur-3xl opacity-20"></div>
-            <div className="relative bg-white rounded-2xl shadow-2xl p-2 sm:p-4">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-0 to-purple-50 rounded-3xl blur-3xl opacity-30"></div>
+            <div className="relative z-10 w-full drop-shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1631006732121-a6da2f4864d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBkYXNoYm9hcmQlMjBhbmFseXRpY3MlMjBzY3JlZW58ZW58MXx8fHwxNzcyODE4MTM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/hero_transparent.png?v=2"
                 alt="ZIU CRM Dashboard"
-                className="w-full rounded-lg"
+                className="w-full h-auto object-contain"
               />
             </div>
           </motion.div>
