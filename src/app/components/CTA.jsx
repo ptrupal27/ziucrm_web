@@ -1,5 +1,5 @@
-import { motion } from 'motion/react';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { ArrowRight, Sparkles, MessageCircle } from 'lucide-react';
 
 export function CTA() {
   return (
@@ -32,13 +32,24 @@ export function CTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <button className="px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-all flex items-center justify-center gap-2 group shadow-xl">
+            <a 
+              href="http://ziucrm.ziuinfotech.in/register" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-all flex items-center justify-center gap-2 group shadow-xl"
+            >
               Start Free Trial
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-            </button>
-            <button className="px-8 py-4 bg-white/20 backdrop-blur-sm text-white border-2 border-white/50 rounded-lg hover:bg-white/30 transition-all flex items-center justify-center gap-2">
+            </a>
+            <a 
+              href="https://wa.me/918128166631?text=Hello!%20I%20am%20interested%20in%20a%20demo%20of%20ZIU%20CRM.%20Please%20provide%20more%20details." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-white/20 backdrop-blur-sm text-white border-2 border-white/50 rounded-lg hover:bg-white/30 transition-all flex items-center justify-center gap-2"
+            >
+              <MessageCircle size={20} />
               Book a Demo
-            </button>
+            </a>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-blue-100">
@@ -46,7 +57,7 @@ export function CTA() {
               <svg className="w-5 h-5 text-green-300" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span>14-day free trial</span>
+              <span>07-day free trial</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-300" fill="currentColor" viewBox="0 0 20 20">

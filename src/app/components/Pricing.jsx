@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
 
 export function Pricing() {
@@ -134,15 +134,18 @@ export function Pricing() {
                 ))}
               </ul>
 
-              <button
-                className={`w-full py-3 rounded-lg font-semibold transition-all ${
+              <a
+                href="http://ziucrm.ziuinfotech.in/register" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={`w-full py-3 rounded-lg font-semibold transition-all text-center block ${
                   plan.popular
                     ? 'bg-white text-blue-600 hover:bg-blue-50'
                     : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg'
                 }`}
               >
                 {plan.cta}
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>

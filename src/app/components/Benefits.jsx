@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Zap, TrendingUp, Heart, Briefcase } from 'lucide-react';
 
 export function Benefits() {
@@ -7,28 +7,28 @@ export function Benefits() {
       icon: Zap,
       title: 'Save Time with Automation',
       description: 'Automate repetitive tasks, follow-ups, and notifications to focus on what matters most.',
-      stats: '80% faster',
+      // stats: '80% faster',
       color: 'from-yellow-500 to-orange-500',
     },
     {
       icon: TrendingUp,
       title: 'Increase Sales Productivity',
       description: 'Empower your sales team with tools and insights to close more deals efficiently.',
-      stats: '3x more deals',
+      // stats: '3x more deals',
       color: 'from-green-500 to-emerald-500',
     },
     {
       icon: Heart,
       title: 'Better Customer Relationships',
       description: 'Build stronger relationships with personalized communication and timely follow-ups.',
-      stats: '95% satisfaction',
+      // stats: '95% satisfaction',
       color: 'from-pink-500 to-rose-500',
     },
     {
       icon: Briefcase,
       title: 'Organized Business Workflow',
       description: 'Keep your entire team aligned with centralized data and streamlined processes.',
-      stats: '100% organized',
+      // stats: '100% organized',
       color: 'from-blue-500 to-indigo-500',
     },
   ];
@@ -70,9 +70,9 @@ export function Benefits() {
                 <div className="flex-1">
                   <div className="flex items-center justify-between mb-3">
                     <h3 className="text-xl font-bold">{benefit.title}</h3>
-                    <span className={`px-3 py-1 bg-gradient-to-r ${benefit.color} text-white text-sm font-bold rounded-full`}>
+                    {/* <span className={`px-3 py-1 bg-gradient-to-r ${benefit.color} text-white text-sm font-bold rounded-full`}>
                       {benefit.stats}
-                    </span>
+                    </span> */}
                   </div>
                   <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
                 </div>

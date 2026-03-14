@@ -12,13 +12,14 @@ import { FAQ } from './components/FAQ';
 import { CTA } from './components/CTA';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { ImageTransparent } from './components/ImageTransparent';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <TrustedBy />
+      {/* <TrustedBy /> */}
       <Features />
       <Screenshots />
       <MobileApp />
@@ -29,6 +30,9 @@ export default function App() {
       <FAQ />
       <CTA />
       <Contact />
+      {/* <div className="bg-gray-50 py-12">
+        <ImageTransparent />
+      </div> */}
       <Footer />
     </div>
   );

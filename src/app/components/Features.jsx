@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Users, UserCheck, Bell, TrendingUp, Eye, MessageCircle, CheckSquare, BarChart3, ShieldCheck } from 'lucide-react';
 
 export function Features() {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -61,12 +61,22 @@ export function Navbar() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <button className="px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors">
+            <a 
+              href="http://ziucrm.ziuinfotech.in/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+            >
               Sign In
-            </button>
-            <button className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg transition-all">
+            </a>
+            <a 
+              href="http://ziucrm.ziuinfotech.in/register" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg transition-all"
+            >
               Start Free Trial
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -105,12 +115,22 @@ export function Navbar() {
                 Contact
               </button>
               <div className="flex flex-col gap-2 pt-4 border-t">
-                <button className="px-6 py-2.5 text-gray-700 border border-gray-300 rounded-lg">
+                <a 
+                  href="http://ziucrm.ziuinfotech.in/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="px-6 py-2.5 text-gray-700 border border-gray-300 rounded-lg text-center"
+                >
                   Sign In
-                </button>
-                <button className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg">
+                </a>
+                <a 
+                  href="http://ziucrm.ziuinfotech.in/register" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-center"
+                >
                   Start Free Trial
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>

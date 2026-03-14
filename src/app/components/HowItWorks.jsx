@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { MousePointer, Users, TrendingUp, Rocket } from 'lucide-react';
 
 export function HowItWorks() {
@@ -90,9 +90,14 @@ export function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-xl transition-all">
+          <a 
+            href="http://ziucrm.ziuinfotech.in/register" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-xl transition-all inline-block"
+          >
             Start Your Free Trial
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
