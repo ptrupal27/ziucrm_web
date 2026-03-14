@@ -22,10 +22,10 @@ export function Features() {
       color: 'from-pink-500 to-pink-600',
     },
     {
-      icon: TrendingUp,
-      title: 'Sales Pipeline Tracking',
-      description: 'Visualize your sales process and track deals through every stage.',
-      color: 'from-green-500 to-green-600',
+      icon: CheckSquare,
+      title: 'Task Management',
+      description: 'Create, assign, and track tasks to keep your team organized.',
+      color: 'from-indigo-500 to-indigo-600',
     },
     {
       icon: Eye,
@@ -40,12 +40,6 @@ export function Features() {
       color: 'from-cyan-500 to-cyan-600',
     },
     {
-      icon: CheckSquare,
-      title: 'Task Management',
-      description: 'Create, assign, and track tasks to keep your team organized.',
-      color: 'from-indigo-500 to-indigo-600',
-    },
-    {
       icon: BarChart3,
       title: 'Reports & Analytics',
       description: 'Get actionable insights with powerful analytics and custom reports.',
@@ -57,6 +51,12 @@ export function Features() {
       description: 'Control data access with customizable user roles and permissions.',
       color: 'from-teal-500 to-teal-600',
     },
+    // {
+    //   icon: TrendingUp,
+    //   title: 'Security & Access Control',
+    //   description: 'Control data access with customizable user roles and permissions.',
+    //   color: 'from-green-500 to-green-600',
+    // },
   ];
 
   return (

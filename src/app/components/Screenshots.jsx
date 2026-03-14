@@ -6,17 +6,17 @@ export function Screenshots() {
     {
       title: 'Lead Management Dashboard',
       description: 'Track and manage all your leads in one place',
-      image: 'https://images.unsplash.com/photo-1631006732121-a6da2f4864d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBkYXNoYm9hcmQlMjBhbmFseXRpY3MlMjBzY3JlZW58ZW58MXx8fHwxNzcyODE4MTM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '/Screenshot 2026-03-14 121158.png',
     },
     {
       title: 'Sales Pipeline View',
       description: 'Visualize your sales process from lead to close',
-      image: 'https://images.unsplash.com/photo-1738996747326-65b5d7d7fe9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZ3JhcGhzJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzcyODc1MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '/Screenshot 2026-03-14 121407.png',
     },
     {
       title: 'Analytics & Reports',
       description: 'Get detailed insights into your business performance',
-      image: 'https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW0lMjBvZmZpY2UlMjBtZWV0aW5nfGVufDF8fHx8MTc3MjgyOTM3NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '/Screenshot 2026-03-14 121801.png', // Assuming 121801 is what was meant instead of 121605
     },
   ];
 
