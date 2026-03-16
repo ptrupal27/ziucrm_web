@@ -27,23 +27,23 @@ export function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
-              All-in-one CRM to manage leads, sales, follow-ups, and team performance from anywhere. 
+              All-in-one CRM to manage leads, sales, follow-ups, and team performance from anywhere.
               Available on Web, Android, and iOS.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <a 
-                href="http://ziucrm.ziuinfotech.in/register" 
-                target="_blank" 
+              <a
+                href="http://ziucrm.ziuinfotech.in/register"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group"
               >
                 Start Free Trial
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
               </a>
-              <a 
-                href="https://wa.me/918128166631?text=Hello!%20I%20am%20interested%20in%20a%20demo%20of%20ZIU%20CRM.%20Please%20provide%20more%20details." 
-                target="_blank" 
+              <a
+                href="https://wa.me/918128166631?text=Hello!%20I%20am%20interested%20in%20a%20demo%20of%20ZIU%20CRM.%20Please%20provide%20more%20details."
+                target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white text-gray-700 border-2 border-gray-300 rounded-lg hover:border-blue-600 hover:text-blue-600 transition-all flex items-center justify-center gap-2"
               >

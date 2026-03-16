@@ -89,7 +89,7 @@ export function Testimonials() {
           ))}
         </div>
 
-        {/* Trust Metrics */}
+        {/* Trust Metrics
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -120,7 +120,7 @@ export function Testimonials() {
             </div>
             <div className="text-gray-600">Countries</div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

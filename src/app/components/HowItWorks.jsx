@@ -64,9 +64,9 @@ export function HowItWorks() {
               className="relative"
             >
               {/* Connector Line */}
-              {index < steps.length - 1 && (
+              {/* {index < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-16 left-full w-full h-0.5 bg-gradient-to-r from-gray-300 to-gray-200 -z-10"></div>
-              )}
+              )} */}
 
               <div className="text-center">
                 <div className={`w-20 h-20 mx-auto mb-6 bg-gradient-to-br ${step.color} rounded-2xl flex items-center justify-center relative`}>
@@ -90,9 +90,9 @@ export function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <a 
-            href="http://ziucrm.ziuinfotech.in/register" 
-            target="_blank" 
+          <a
+            href="http://ziucrm.ziuinfotech.in/register"
+            target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-xl transition-all inline-block"
           >

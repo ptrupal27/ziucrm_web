@@ -23,26 +23,26 @@ export function Footer() {
               </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-sm">
-              The all-in-one CRM solution to manage leads, customers, sales, and team performance. 
+              The all-in-one CRM solution to manage leads, customers, sales, and team performance.
               Grow your business smarter with ZIU CRM.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
+            {/* <div className="flex gap-4">
+              <a href="https://www.facebook.com/angelcomputereducationsurat/" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-400 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+              <a href="https://in.linkedin.com/company/angel-multimedia-institute" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-pink-600 transition-colors">
+              <a href="https://www.instagram.com/angel_multimedia_institute/" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-pink-600 transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-red-600 transition-colors">
                 <Youtube size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Product */}

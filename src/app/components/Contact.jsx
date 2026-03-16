@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 
 export function Contact() {
   return (
@@ -12,13 +12,14 @@ export function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Get in{' '}
+            Get in{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Touch
             </span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            Have questions? We'd love to hear from you. Send us a message and
+            we'll respond as soon as possible.
           </p>
         </motion.div>
 
@@ -31,7 +32,8 @@ export function Contact() {
           >
             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
             <p className="text-gray-600 mb-8">
-              Fill out the form and our team will get back to you within 24 hours.
+              Fill out the form and our team will get back to you within 24
+              hours.
             </p>
 
             <div className="space-y-6">
@@ -41,8 +43,11 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Email</div>
-                  <a href="mailto:support@ziucrm.com" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    support@ziucrm.com
+                  <a
+                    href="mailto:support@ziucrm.com"
+                    className="text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    crm@ziuinfotech.in
                   </a>
                 </div>
               </div>
@@ -53,8 +58,11 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Phone</div>
-                  <a href="tel:+1234567890" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    +1 (234) 567-890
+                  <a
+                    href="tel:+1234567890"
+                    className="text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    +91 81281 66631
                   </a>
                 </div>
               </div>
@@ -64,24 +72,28 @@ export function Contact() {
                   <MapPin className="text-white" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Address</div>
+                  <div className="font-semibold text-gray-900 mb-1">
+                    Address
+                  </div>
                   <p className="text-gray-600">
-                    123 Business Avenue<br />
-                    Tech City, TC 12345<br />
-                    United States
+                    60, Ishwarkrupa Society-3,<br />
+                    1st Floor, L.H. Road, Varachha,<br />
+                    Surat Gujarat, India
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl">
+            {/* <div className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl">
               <h4 className="font-bold text-gray-900 mb-2">Business Hours</h4>
               <p className="text-gray-600 text-sm">
-                Monday - Friday: 9:00 AM - 6:00 PM<br />
-                Saturday: 10:00 AM - 4:00 PM<br />
+                Monday - Friday: 9:00 AM - 6:00 PM
+                <br />
+                Saturday: 10:00 AM - 4:00 PM
+                <br />
                 Sunday: Closed
               </p>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Contact Form */}
@@ -93,7 +105,10 @@ export function Contact() {
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label
+                    htmlFor="firstName"
+                    className="block text-sm font-semibold text-gray-700 mb-2"
+                  >
                     First Name
                   </label>
                   <input
@@ -105,7 +120,10 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label
+                    htmlFor="lastName"
+                    className="block text-sm font-semibold text-gray-700 mb-2"
+                  >
                     Last Name
                   </label>
                   <input
@@ -118,7 +136,10 @@ export function Contact() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
                   Email Address
                 </label>
                 <input
@@ -130,19 +151,25 @@ export function Contact() {
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label
+                  htmlFor="phone"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
                   Phone Number
                 </label>
                 <input
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors"
-                  placeholder="+1 (234) 567-890"
+                  placeholder="Enter your phone number"
                 />
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
                   Subject
                 </label>
                 <input
@@ -154,7 +181,10 @@ export function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
                   Message
                 </label>
                 <textarea
@@ -170,7 +200,10 @@ export function Contact() {
                 className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group"
               >
                 Send Message
-                <Send className="group-hover:translate-x-1 transition-transform" size={20} />
+                <Send
+                  className="group-hover:translate-x-1 transition-transform"
+                  size={20}
+                />
               </button>
             </form>
           </motion.div>

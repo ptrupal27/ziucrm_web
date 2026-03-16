@@ -12,7 +12,6 @@ import { FAQ } from './components/FAQ';
 import { CTA } from './components/CTA';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { ImageTransparent } from './components/ImageTransparent';
 
 export default function App() {
   return (
@@ -26,13 +25,10 @@ export default function App() {
       <HowItWorks />
       <Benefits />
       <Pricing />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
       <CTA />
       <Contact />
-      {/* <div className="bg-gray-50 py-12">
-        <ImageTransparent />
-      </div> */}
       <Footer />
     </div>
   );
