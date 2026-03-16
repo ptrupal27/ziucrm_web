@@ -1,7 +1,4 @@
 
-  # Website Builder
-
-  This is a code bundle for Website Builder. The original project is available at https://www.figma.com/design/Vtwwsg8Eihy2HBQudX4TR1/Website-Builder.
 
   ## Running the code
 
